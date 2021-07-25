@@ -15,7 +15,7 @@ ssh-keygen -t rsa -C "youremail@example.com"
 ssh -T git@github.com（验证用户是否连接上GitHub）
 ```
 ```
-git push --set-upstream origin master
-如果直接新建的一个本地仓库，需要将本地分支和远程分支关联起来，然后才可以使用git push
+git push --set-upstream origin master(新建上游分支，分支名称为master)
+如果直接新建的一个本地仓库，需要新建远程同名分支并且关联起来，然后才可以使用git push
 如果直接克隆的远程仓库，则不需要这一步
 ```
